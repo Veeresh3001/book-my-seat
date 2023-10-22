@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/book-my-seat/static/css/main.3c385573.css",
+    "main.js": "/book-my-seat/static/js/main.3518fea4.js",
+    "static/js/787.a5039dbc.chunk.js": "/book-my-seat/static/js/787.a5039dbc.chunk.js",
+    "index.html": "/book-my-seat/index.html",
+    "main.3c385573.css.map": "/book-my-seat/static/css/main.3c385573.css.map",
+    "main.3518fea4.js.map": "/book-my-seat/static/js/main.3518fea4.js.map",
+    "787.a5039dbc.chunk.js.map": "/book-my-seat/static/js/787.a5039dbc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c385573.css",
+    "static/js/main.3518fea4.js"
+  ]
+}
