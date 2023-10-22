@@ -1,38 +1,101 @@
 .App {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  width: 100%;
+  /* font-family: Roboto; */
+}
+.app-head{
+  font-size: 30px;
+  margin: 6px 0px 0px 0px;
+}
+.inputs-card{
+  display: flex;
+  align-items: center;
+  margin: 10px 0px 15px 0px;
+  width: 70%;
+  justify-content: flex-start;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.select-card{
+  font-size: 17px;
+  padding-left: 10px;
+  width: 200px;
+  height: 35px;
+  border-radius: 4px;
+  border: 1px solid #a7a7ac;
+  outline: none;
+  margin-right: 10px;
+}
+.number-input{
+  font-size: 16px;
+  padding-left: 10px;
+  width: 60px;
+  height: 32px;
+  border-radius: 4px;
+  border: 1px solid #a7a7ac;
+  outline: none;
+  /* margin-right: 10px; */
+  /* cursor: not-allowed; */
+}
+.select-card option{
+  padding: 10px;
+}
+.qty-label{
+  color: #242425;
+  font-size: 20px;
+  font-weight: 700;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card-container{
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  /* box-shadow: 0px 0px 5px 1px #b4b4b6; */
+  padding: 10px;
+  border-radius: 10px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card-1{
+  width: 60%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.card-2{
+  width: 20%;
 }
 
-.App-link {
-  color: #61dafb;
+.seats-card{
+  box-shadow: 0px 0px 1px 1px #b4b4b6;
+  border-radius: 8px;
+  height: 60vh;
+  overflow-y: auto;
+  width: 100%;
+  padding: 20px;
+}
+.seats-list{
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.proceed-btn{
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #735cf8;
+  color: #fcfcfc;
+  padding: 8px 15px;
+  display: flex;
+  align-self: flex-end;
+  margin-top: 10px;
+  font-weight: 700;
 }
+.proceed-btn:hover{
+  padding: 10px 16px;
+  background-color: #f8603a;
+}
+

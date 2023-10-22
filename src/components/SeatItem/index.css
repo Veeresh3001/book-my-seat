@@ -1,0 +1,31 @@
+.seat-item{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    border-top: 5px solid #555555;
+    border-bottom: 3px solid #555555;
+    border-right: 1px solid #555555;
+    border-left: 1px solid #555555;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.seat-item:hover{
+    width: 38px;
+    height: 38px;
+}
+.booked{
+    background-color: #969696;
+    cursor: not-allowed;
+}
+.select{
+    background-color: #15ce68;
+    /* cursor: pointer; */
+}
+.available:hover{
+    background-color: #15ce68;
+    /* cursor: pointer; */
+}
